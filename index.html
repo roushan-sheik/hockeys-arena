@@ -47,11 +47,34 @@
     .container_padding {
       padding: 0 6.8125rem;
     }
+
+    .btn_primary {
+      color: #FFF;
+      text-align: center;
+      font-size: 1.125rem;
+      font-weight: 700;
+      border-radius: 8px;
+      border: 1px solid #FF4240;
+      background: #FF4240;
+      padding: .600rem 1rem;
+    }
+
+    @media screen and (max-width:640px) {
+      .container_padding {
+        padding: 0 0;
+      }
+
+      .btn_primary {
+        font-size: 1rem;
+        padding: .450rem .750rem;
+      }
+
+    }
   </style>
 </head>
 
 <body>
-  <header class="container container_padding">
+  <header class="container container_padding mx-auto">
     <nav class="mt-11">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -71,7 +94,9 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="  font-extrabold text-xl  lg:text-3xl">Hockeys <span class="red_primary">Arena</span></a>
+          <h3 class="text-nowrap">
+            <a class="  font-extrabold text-[1.125rem]  lg:text-3xl">Hockey's <span class="red_primary">Arena</span></a>
+          </h3>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-[#424247]">
@@ -82,9 +107,9 @@
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <div class="navbar-end flex gap-5">
-          <i class="fa-solid text-2xl fa-magnifying-glass text-[#89898B]"></i>
-          <button class="btn bg_red text-white font-bold">Get Ticket</button>
+        <div class="navbar-end flex lg:gap-5 mr-2 lg:mr-0 ">
+          <i class="fa-solid text-2xl fa-magnifying-glass text-[#89898B] hidden lg:block"></i>
+          <button class="btn_primary">Get Ticket</button>
         </div>
       </div>
     </nav>
