@@ -67,7 +67,6 @@
       .btn_primary {
         font-size: 1rem;
         padding: .4rem .7rem;
-        /* color: #13131880 ; */
 
       }
     }
@@ -671,6 +670,82 @@
           <!-- Q ends -->
 
         </div>
+      </div>
+    </section>
+    <!-- Get In Touch Section  -->
+    <section>
+      <!-- Content Box  -->
+      <div class="lg:my-24 my-8 w-full lg:p-[2.5rem] p-[1.25rem] flex justify-center items-center flex-col">
+        <h2 class="text-center font-extrabold black_primary lg:text-3xl text-[20.8px] ">Get In Touch</h2>
+        <p class="text-center black_secondary text-base mt-4 lg:w-6/12 ">Dit amet consectetur. Condimentum dignissim
+          adipiscing
+          aliquam
+          turpis
+          placerat dolor.
+          Purus urna in sit
+          nullam proin.</p>
+      </div>
+      <!-- From box  -->
+      <div class="form_box flex flex-col  w-full lg:flex-row gap-6">
+        <!-- contact list  -->
+        <div class="contact_list flex py-8 flex-col basis-1/3  gap-5">
+          <!-- Phone  -->
+          <div class="Phone_box  bg-[#bced6d1a] p-5 flex-1 rounded-e-2xl">
+            <img class="h-8 w-8" src="./Images/mail.png" alt="">
+            <div class="mt-5">
+              <span class="black_secondary   text-base font-extrabold">Email:</span>
+              <h3 class="font-extrabold text-base black_primary">(+62) 123-321-543</h3>
+            </div>
+          </div>
+          <!-- Email Box  -->
+          <div class="Email_Box bg-[#fddd5f1a] p-5 flex-1 rounded-e-2xl">
+            <img class="h-8 w-8" src="./Images/call.png" alt="">
+            <div class="mt-5">
+              <span class="black_secondary text-base font-extrabold">Phone Number:</span>
+              <h3 class="font-extrabold  text-base  black_primary">(+62) 123-321-543</h3>
+            </div>
+          </div>
+          <!-- Location Box  -->
+          <div class="Location_Box bg-[#629cf31a] p-5 flex-1 rounded-e-2xl">
+            <img class="h-8 w-8" src="./Images/location.png" alt="">
+            <div class="mt-5">
+              <span class="black_secondary  text-base  font-extrabold">Phone Number:</span>
+              <h3 class="font-extrabold  text-base  black_primary">(+62) 123-321-543</h3>
+            </div>
+          </div>
+        </div>
+        <!-- ===================> Form <=====================> -->
+        <form action="#" class="flex-1">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div>
+              <label for="name"><span class="text-[1.125rem] pb-6 font-bold">Your Name</span></label>
+              <input type="text" id="name" placeholder="Enter your full name:"
+                class="w-full my-3 border-none outline-none bg-[#13131808] rounded-2xl p-[1.125rem]" />
+            </div>
+            <div>
+              <label for="email"><span class="text-[1.125rem] pb-6 font-bold">Your Email</span></label>
+              <input type="text" id="email" placeholder="Enter your email:"
+                class="w-full my-3 border-none outline-none bg-[#13131808] rounded-2xl p-[1.125rem]" />
+            </div>
+            <div>
+              <label for="subject"><span class="text-[1.125rem] pb-6 font-bold">Your Email</span></label>
+              <input type="text" id="subject" placeholder="Subject:"
+                class="w-full my-3 border-none outline-none bg-[#13131808] rounded-2xl p-[1.125rem]" />
+            </div>
+            <div>
+              <label for="subject"><span class="text-[1.125rem] pb-6 font-bold">Phone Number</span></label>
+              <input type="text" id="subject" placeholder="Subject:"
+                class="w-full my-3 border-none outline-none bg-[#13131808] rounded-2xl p-[1.125rem]" />
+            </div>
+          </div>
+          <!-- Textarea  -->
+          <div>
+            <label for="message"><span class="text-[1.125rem] pb-6  mt-4 font-bold">Message</span></label>
+            <textarea class="w-full my-3 border-none outline-none bg-[#13131808] rounded-2xl p-[1.125rem] resize-none"
+              name="message" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div><button class="btn_primary w-full">Send Message</button></div>
+        </form>
       </div>
     </section>
   </main>
