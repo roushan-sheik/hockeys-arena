@@ -67,7 +67,7 @@
 
     @media screen and (max-width:640px) {
       .container_padding {
-        padding: 0 1rem;
+        padding: 0;
       }
 
       .btn_primary {
@@ -82,8 +82,8 @@
 <body>
   <header class="container container_padding mx-auto">
     <!-- >>>>>>>>>>>>>>>>>>> Navigation menu <<<<<<<<<<<<<<<<<<<<  -->
-    <nav class="lg:mt-11 mt-3">
-      <div class="navbar bg-base-100">
+    <nav class="lg:mt-11 mt-0  fixed z-[1000] lg:static w-full">
+      <div class="navbar bg-base-100 pt-3 px-4 lg:p-0 shadow-md lg:shadow-none">
         <div class="navbar-start">
           <div class="dropdown bg-slate-300 rounded-md mr-2">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -757,9 +757,9 @@
   </main>
   <!-- <<<<<<<<<<<<<<<< Footer Section >>>>>>>>>>>>>>> -->
   <footer
-    class="container mx-auto lg:h-[25rem] h-[100vh] flex-col flex justify-items-center   text-[#ffffff99] bg-[#131318] ">
+    class="container mx-auto lg:h-[25rem] h-[95vh] flex-col flex justify-items-center   text-[#ffffff99] bg-[#131318] ">
     <!-- Footer parent  -->
-    <div class=" container_padding grid grid-cols-2 gap-5 lg:grid-cols-5 lg:pt-20 pt-10">
+    <div class=" container_padding grid grid-cols-2 gap-5 lg:grid-cols-5 lg:pt-20 pt-14">
       <!-- Footer box one  -->
       <div class="col-span-2  text-center lg:text-left pr-4">
         <h2 class="text-2xl text-white font-extrabold">Get In Touch</h2>
